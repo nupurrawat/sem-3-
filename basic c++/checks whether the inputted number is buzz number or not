@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int a;
+	cout << "Enter a number";
+	cin >> a;
+	if (a % 7 == 0)
+	{
+		cout << "It is a buzz number";
+	}
+	else if (a % 10 == 7)
+	{
+		cout<<"It is a buzz number";
+	}
+	else
+{
+		cout << "Not a buzz number";
+	}
+}
