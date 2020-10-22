@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	char n[10], course[20];
+	int univ, sem;
+	cout << "Enter the Name, Course, University roll number and Semester";
+	cin >> n >> course;
+	cin >> univ >> sem;
+	cout << "NAME : " << n << endl << "COURSE : " << course << endl << "UNIVERSITY ROLL NO : " << univ << endl << "SEMESTER : " << sem;
+}
