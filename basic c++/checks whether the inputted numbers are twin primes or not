@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a, b, i,j;
+	cout << "Enter two numbers";
+	cin >> a >> b;
+	for (i = 2; i <= a / 2; i++)
+
+	{
+		if (a % i == 0)
+		{
+			for (j = 2; j <= b / 2; j++)
+			{
+				if (b % i == 0)
+				{
+					if (a - b == 2)
+					{
+						cout << "twin primes";
+					}
+					else if (b - a == 2)
+					{
+						cout << "twin prime";
+					}
+					else
+          {
+						cout << "not twin prime";
+					}
+				}
+				else
+				{
+					cout << "not prime";
+				}
+			}
+		}
+	}
+}
+
