@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double temp;
+	int s;
+	cout << "Enter the temperature";
+	cin >> temp;
+	cout << "Enter 1 to convert celsius to fahrenheit" << endl << "Enter 2 to convert from fahrenheit to celsius" << endl;
+	cin >> s;
+	switch (s)
+	{
+	case 1:
+	{
+		cout << "CELSIUS TO FAHRENHEIT" << endl;
+		temp = (temp * 1.8) + 32;
+		cout << "The temperature in fahrenheits is " << temp;
+		break;
+	}
+	case 2:
+	{
+		cout << "FAHRENHEIT TO CELSIUS" << endl;
+		temp = (temp - 32) / 1.8;
+			break;
+	}
+
+	default:
+	{cout << "You have entered an invalid choice" << endl;
+		break;
+	}
+	}
+}
