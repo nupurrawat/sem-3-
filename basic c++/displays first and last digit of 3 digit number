@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int a;
+	cin >> a;
+	cout << "Inputted number is " << a<<endl;
+	int b = a % 10;
+	a = a / 10;
+	int c = a / 10;
+	cout << "First digit is " << c << endl << "Last digit is " << b;
+
+}
